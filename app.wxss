@@ -1,0 +1,17 @@
+@import "./styles/iconfont.wxss";
+
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+主题颜色 通过变量来实现
+1.less 中 存在 变量 这个知识
+2.原生的css和wxss也是支持 变量
+*/
+page{
+    /* 定义主题颜色 */
+    --themeColor: #f8554d;
+}

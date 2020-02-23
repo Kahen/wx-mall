@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "SearchInput":"../../components/searchInput/searchInput"
+  },
   "navigationBarTitleText": "Kahen优购首页"
 
 }
